@@ -4,10 +4,10 @@
 :root {
   --cream:    #faf7f2;
   --ink:      #1a1a18;
-  --moss:     #3d5a47;
-  --sage:     #7a9e87;
-  --sand:     #e8e0d0;
-  --accent:   #c07a3e;
+  --teal:     #1F7A8C;
+  --palesky:  #BFDBF7;
+  --honeydew: #F3FBEF;
+  --yaleblue: #053c5e;
 
   --font-display: 'Cormorant Garamond', Georgia, serif;
   --font-body:    'Outfit', system-ui, sans-serif;
@@ -40,7 +40,8 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 1.25rem 6vw;
-  border-bottom: 1px solid var(--sand);
+  border-bottom: 1px solid var(--honeydew);
+);
   background: var(--cream);
   position: sticky;
   top: 0;
@@ -51,7 +52,7 @@ nav {
   font-family: var(--font-display);
   font-size: 1.4rem;
   font-weight: 600;
-  color: var(--moss);
+  color: var(--teal);
   letter-spacing: 0.02em;
 }
 
@@ -75,7 +76,7 @@ nav a {
 nav a:hover,
 nav a.active {
   opacity: 1;
-  color: var(--moss);
+  color: var(--teal);
 }
 
 /* ===========================
@@ -95,7 +96,7 @@ nav a.active {
   font-size: 0.78rem;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  color: var(--accent);
+  color: var(--yaleblue);
   font-weight: 500;
   margin-bottom: 0.75rem;
 }
@@ -105,7 +106,7 @@ nav a.active {
   font-size: clamp(3rem, 6vw, 5rem);
   font-weight: 600;
   line-height: 1.1;
-  color: var(--moss);
+  color: var(--teal);
   margin-bottom: 1.25rem;
 }
 
@@ -128,7 +129,7 @@ nav a.active {
   height: 340px;
   border-radius: 4px 40px 4px 40px;
   overflow: hidden;
-  background: var(--sand);
+  background: var(--honeydew);
   box-shadow: 8px 12px 40px rgba(61, 90, 71, 0.15);
 }
 
@@ -145,7 +146,7 @@ nav a.active {
   align-items: center;
   justify-content: center;
   height: 100%;
-  color: var(--sage);
+  color: var(--palesky);
   font-family: var(--font-display);
   font-size: 1.2rem;
   letter-spacing: 0.1em;
@@ -164,7 +165,7 @@ nav a.active {
   font-family: var(--font-display);
   font-size: clamp(2.5rem, 5vw, 4rem);
   font-weight: 600;
-  color: var(--moss);
+  color: var(--teal);
   line-height: 1.1;
 }
 
@@ -190,10 +191,10 @@ main {
   font-family: var(--font-display);
   font-size: 2rem;
   font-weight: 600;
-  color: var(--moss);
+  color: var(--teal);
   margin-bottom: 1.5rem;
   padding-bottom: 0.5rem;
-  border-bottom: 1px solid var(--sand);
+  border-bottom: 1px solid var(--honeydew);
 }
 
 .about-body p + p {
@@ -215,7 +216,7 @@ main {
 
 .skill-card {
   background: white;
-  border: 1px solid var(--sand);
+  border: 1px solid var(--honeydew);
   border-radius: 8px;
   padding: 1.5rem;
   transition: box-shadow 0.2s;
@@ -229,7 +230,7 @@ main {
   font-family: var(--font-display);
   font-size: 1.1rem;
   font-weight: 600;
-  color: var(--moss);
+  color: var(--teal);
   margin-bottom: 0.5rem;
 }
 
@@ -261,7 +262,7 @@ main {
 
 .project-card {
   background: white;
-  border: 1px solid var(--sand);
+  border: 1px solid var(--honeydew);
   border-radius: 10px;
   padding: 1.75rem;
   transition: box-shadow 0.2s, transform 0.2s;
@@ -276,7 +277,7 @@ main {
   font-size: 0.72rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--accent);
+  color: var(--yaleblue);
   font-weight: 500;
   margin-bottom: 0.6rem;
 }
@@ -285,7 +286,7 @@ main {
   font-family: var(--font-display);
   font-size: 1.3rem;
   font-weight: 600;
-  color: var(--moss);
+  color: var(--teal);
   margin-bottom: 0.75rem;
   line-height: 1.3;
 }
@@ -311,7 +312,7 @@ main {
   text-align: center;
   padding: 3rem 2rem;
   background: white;
-  border: 1px solid var(--sand);
+  border: 1px solid var(--honeydew);
   border-radius: 12px;
   margin-top: 1rem;
 }
@@ -332,7 +333,7 @@ main {
 .contact-btn {
   display: inline-block;
   padding: 0.65rem 1.5rem;
-  background: var(--moss);
+  background: var(--teal);
   color: white;
   text-decoration: none;
   border-radius: 999px;
@@ -355,7 +356,7 @@ footer {
   padding: 2rem;
   font-size: 0.8rem;
   color: #aaa;
-  border-top: 1px solid var(--sand);
+  border-top: 1px solid var(--honeydew);
   margin-top: 3rem;
   font-family: var(--font-body);
 }
